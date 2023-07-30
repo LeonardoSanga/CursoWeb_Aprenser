@@ -1,0 +1,200 @@
+:root {
+    --primary-color: #FED001;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+p, a {
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: 'Sora', sans-serif;
+    color: #2e2d2d;
+    line-height: 1.3;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.wrapperContainer_dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.wrapperContainer_hero {
+    background-image: linear-gradient(transparent, rgb(250, 250, 34));
+}
+
+.wrapperContainer_light {
+    background-color: #fafafa;
+}
+
+.wrapperContainer_dark2 {
+    background-color: #003464;
+    color: #fafafa;
+}
+
+.wrapperContainer-padded {
+    padding-top: 7rem;
+}
+
+.container {
+    max-width: 74.75rem;
+    margin: auto;
+}
+
+.wrapperContainer-fixed {
+    position: sticky;
+    top: 0;
+}
+
+/******************************* FORMATAÇÃO GERAl *****************************/
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.5em;
+    padding-top: 1em;
+
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+
+.nav-wrapper li {
+    list-style: none;
+}
+
+.nav-wrapper a {
+    outline: 1px solid;
+    color: var(--primary-color);
+    padding: .5rem 1.4rem;
+    text-decoration: none;
+}
+
+.nav-wrapper a:hover {
+    background-color: black;
+}
+
+.initial-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding-left: 4rem;
+}
+
+
+.initial-content__text a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--primary-color);
+    padding: 1em 2em;
+    border-radius: 10px;
+}
+
+.courses-section {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.courses-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 4rem;
+}
+
+.courses-item {
+    background-color: white;
+    border: 1px solid #dadada;
+    text-align: left;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.courses-item img {
+    display: block;
+    width: 100%;
+}
+
+.courses-item__text {
+   padding: 0 1em 0 1em;
+}
+
+.courses-item__text p {
+    color: rgb(102, 96, 96);
+}
+
+.courses-section a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: var(--primary-color);
+    padding: .7rem 2.5rem;
+    border-radius: 5px;
+    margin-bottom: 8rem;
+    
+}
+
+.school-section {
+    border-top: 18rem;
+    padding: 4rem;
+    background-image: url(../imagens/nossa-escola.png);
+    background-repeat: no-repeat;
+    background-size: right bottom;
+}
+
+.school-section__text {
+    width: 40%;
+    margin-left: auto;
+ 
+}
+
+
+
+.school-section__text p {
+    line-height: 1.5;
+}
+
+.contacts-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.contacts-section h2 {
+    text-align: center;
+}
+
+.contacts-section__text {
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+}
