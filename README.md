@@ -1,4 +1,4 @@
-# Udemy_Aprenser
+# CursoWeb_Aprenser
 Projeto do curso de HTML, CSS e JavaScript da Udemy, que visa aplicar os conhecimentos em CSS, adquiridos na etapa inicial do curso.
 
 ![image](https://github.com/LeonardoSanga/Udemy_Aprenser/assets/100099053/a8fa3f29-fb38-4b75-ad4d-122d8e1e52aa)
